@@ -1,0 +1,30 @@
+{
+    "name": "sumityadav/omnipay-icici",
+    "type": "library",
+    "description": "Icici driver for the Omnipay payment processing library",
+    "keywords": [
+        "icici",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/sumityadav/omnipay-icici",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sumit Kumar",
+            "email": "sumi.yadav@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Icici\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
