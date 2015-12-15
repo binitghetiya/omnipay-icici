@@ -12,9 +12,9 @@ class GatewayTest extends GatewayTestCase
 
         $this->gateway = new Gateway($this->getHttpClient(), $this->getHttpRequest());
 
-        $this->options = array(
+        $this->options = [
             'amount' => '10.00',
-        );
+        ];
     }
 
     public function testPurchase()
